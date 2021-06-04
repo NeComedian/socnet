@@ -1,0 +1,30 @@
+
+html, body{
+    height: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1280px;
+    padding-top: 80px;
+}
+
+.content-wrapper{
+    margin-left: 320px;
+}
+
+
+
+
+
+
+
+/*
+
+/messages
+/dialogs
+
+/dialogs/3
+/dialogs/2
+
+*/

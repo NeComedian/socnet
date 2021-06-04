@@ -1,0 +1,114 @@
+.ava{
+    width: 170px;
+    height: 170px;
+    background: url("https://cdn.discordapp.com/attachments/447687027564216330/744905265475747960/unknown.png") center no-repeat;
+    background-size: cover;
+    border-radius: 85px;
+    margin: 0 auto;
+}
+.user{
+    width: 270px;
+    height: 400px;
+    border-radius: 135px;
+    border: solid 2px #397fe7;
+    background-color: #e7f1ff;
+    margin: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 9px;
+}
+.userInfo{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+.userInfo li{
+    display: block;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.user button {
+    width: 120px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #397fe7;
+    border-radius: 60px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.usersBlock{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top:100px;
+    max-width: 960px;
+    padding-left: 50px;
+    font-family:'open-sans', sans-serif;
+    font-size: 18px;
+    color: #001b42;
+}
+
+.loader{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.usersBlock span{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 24px;
+}
+
+.usersToggle {
+    width: 910px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #001b42;
+    margin-left: 50px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: fixed;
+    margin-top: 40px;
+}
+
+.usersToggle div{
+    width: 265px;
+    text-align: center;
+    color: #397fe7;
+    font-size: 24px;
+    font-family: 'Roboto Slab', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.usersToggle .active{
+    background-color: #397fe7;
+    color: #e7f1ff;
+    cursor: pointer;
+}
+
+.usersToggle input{
+    width: 282px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #e7f1ff;
+    color: #397fe7;
+    font-size: 24px;
+    font-family: 'Roboto Slab', sans-serif;
+    padding-left: 16px;
+}
+
+.whiteBlock{
+    height: 40px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}

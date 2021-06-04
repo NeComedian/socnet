@@ -1,0 +1,20 @@
+.postsBlock {
+    padding: 10px;
+}
+
+.posts {
+    margin-top: 10px;
+}
+
+.postsBlock textarea{
+    min-height: 40px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: #397fe7;
+    font-family: 'open-sans', sans-serif;
+    font-size: 24px;
+    padding: 10px 19px;
+    color: #e7f1ff;
+    resize: none;
+    overflow: hidden;
+}

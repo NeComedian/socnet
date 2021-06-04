@@ -1,0 +1,44 @@
+.header {
+    grid-area: h;
+    height: 80px;
+    box-shadow: 0px 9px 23px 4px rgba(0, 0, 0, 0.15);
+    background-color: #001b42;
+    position: fixed;
+    width: 100%;
+    padding-top:20px;
+}
+
+.header img {
+    height: 41px;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.ava{
+    width: 50px;
+    height: 50px;
+    background: url("https://cdn.discordapp.com/attachments/447687027564216330/744905265475747960/unknown.png") center no-repeat;
+    background-size: cover;
+    border-radius: 85px;
+    margin-left: 25px;
+    margin-top: -5px;
+}
+.content span{
+    margin-right: 0;
+    color: #e7f1ff;
+    cursor: pointer;
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    margin-top: 14px;
+}
+.content{
+    float: right;
+    display: flex;
+    font-weight: 600;
+}
+
+.login{
+    font-weight: 300;
+}

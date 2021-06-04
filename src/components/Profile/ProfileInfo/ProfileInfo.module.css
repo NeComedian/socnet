@@ -1,0 +1,28 @@
+.ava{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+    background: url("https://cdn.discordapp.com/attachments/447687027564216330/744905265475747960/unknown.png") center center/cover no-repeat;
+}
+
+.infoContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    display: inline-block;
+    font-size: 30px;
+    text-align: left;
+    color: #001b42;
+    margin-left: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+.dopInfo{
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dopInfo span{
+ font-weight: 600;
+}
